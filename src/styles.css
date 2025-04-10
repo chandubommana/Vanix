@@ -1,0 +1,13 @@
+
+body {
+    background: linear-gradient(0deg, #151a1e, #151a1e),
+                radial-gradient(100% 100% at 50% 0%, #1f82a34d, #151a1e4d 83.99%);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    min-height: 100vh;
+  }
+  
+  

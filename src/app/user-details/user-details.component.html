@@ -1,0 +1,10 @@
+<div *ngIf="data.length > 0">
+    <h3>Autocomplete Suggestions</h3>
+    <ul>
+      <li *ngFor="let item of data">
+        <strong>{{ item.queryPrediction.structuredFormat?.mainText?.text }}</strong><br />
+        <small>{{ item.queryPrediction.structuredFormat?.secondaryText?.text }}</small>
+      </li>
+    </ul>
+  </div>
+  

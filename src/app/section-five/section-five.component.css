@@ -1,0 +1,81 @@
+.media-section {
+    background-color: #0b1f28;
+    background-image: url(https://testwebsite.vanixtechnologies.com/assets/images/home/fifth_section_frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f5fcff;
+    width: 100%;
+  }
+  
+  .media-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    text-align: center;
+    color: #f5fcff;
+  }
+  
+  .media-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    color: #f5fcff;
+  }
+  
+  .media-logos {
+    max-height: 200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .media-logo {
+    margin: 8px;
+  }
+  
+  .carousel {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    max-height: 200px;
+    width: 100%;
+    border-radius: 16px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    margin: 8px;
+  }
+  
+  
+  
+  .media-testimonial {
+    border-radius: 10px;
+    color: #f5fcff;
+  }
+  
+  .media-testimonial p {
+    color: #f5fcff;
+    /* margin-top: 12px; */
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  @media (max-width: 826px) {
+    .media-section {
+      height: auto;
+      padding: 15px;
+      margin: 0;
+    }
+  
+    .media-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

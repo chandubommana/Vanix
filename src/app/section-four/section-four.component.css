@@ -1,0 +1,37 @@
+.h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 125%;
+    text-align: center;
+    color: #f5fcff;
+  }
+  section {
+    background-color: #0b1f28;
+  }
+  .box {
+    background: var(--white-tint-5, rgba(255, 255, 255, 0.05));
+    border: 1px solid var(--white-tint-10, rgba(255, 255, 255, 0.1));
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-grid {
+   
+    flex-wrap: wrap;
+   
+    gap: 64px; 
+    margin-bottom: 24px;
+  }
+  .logo-grid img {
+    max-height: 100px;
+    object-fit: contain;
+    margin-bottom: 16px;
+    margin-left: 16px;
+   
+  }
+  

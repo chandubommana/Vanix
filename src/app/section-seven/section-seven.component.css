@@ -1,0 +1,61 @@
+.bg-gradient-custom {
+    background: radial-gradient(100% 405.48% at 0% 0%, #0d703e, #0d5168);
+  }
+  
+  .newsletter-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .newsletter-heading {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #f5fcff;
+  }
+  
+  .newsletter-subtitle {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #f5fffa;
+  }
+  
+  .newsletter-input .form-control.email-input {
+    background: rgba(0, 0, 0, 0.15);
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: #fefeff;
+    padding-left: 15px;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  
+  .subscribe-button {
+    background-color: #f5fffa;
+    color: #041c24;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 4px;
+    width: 92px;
+    height: 36px;
+  }
+  
+  .newsletter-description {
+    color: #f7fbff;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+  }
+  .email-input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
